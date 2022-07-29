@@ -1,0 +1,58 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.row{
+    height: 100vh;
+}
+#alarmApp{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+#alarmApp input{
+    border-radius: 0;
+}
+#alarmApp .my-3{
+    flex: 1;
+}
+button#stop {
+    border-radius: 0px;
+}
+
+.form-control:focus {
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+    border-color: #212529;
+}
+
+/* .alarm{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+} */
+.alarm-box{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.alarm-clock{
+    width: 100px;
+    border-radius: 5px;
+}
+.alarm-clock h2{
+    height: 80px;
+    line-height: 80px;
+    background-color: beige;
+    margin-bottom: 0px !important;
+}
+.alarm-clock span{
+    display: block;
+    font-weight: 700;
+    background-color: rgb(176, 164, 141);
+}
